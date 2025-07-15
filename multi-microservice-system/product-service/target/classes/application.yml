@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongo:27017/productsdb
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
