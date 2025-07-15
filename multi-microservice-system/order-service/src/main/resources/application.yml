@@ -5,6 +5,8 @@ spring:
     url: jdbc:postgresql://postgres:5432/ordersdb
     username: postgres
     password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 management:
   endpoints:
